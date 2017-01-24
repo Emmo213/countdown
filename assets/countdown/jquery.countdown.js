@@ -83,7 +83,6 @@
 		// Creating the markup inside the container
 		$.each(['Days','Hours','Minutes','Seconds'],function(i){
                         if(this == "Days") {
-                       console.log(this); 
                             $('<span class="count'+this+'">').html(
 			        '<span class="position">\<span class="digit static">0</span>\
                                  </span>\
@@ -97,7 +96,6 @@
                         }
                         else {
 
-                           console.log(this); 
                            $('<span class="count'+this+'">').html(
 			        '<span class="position">\
                                     <span class="digit static">0</span>\
